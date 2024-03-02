@@ -1,0 +1,305 @@
+*{
+  font-family: "Roboto", sans-serif;
+}
+a{
+  text-decoration: none;
+}
+header{
+  margin: 30px 0px;
+}
+a.btn-conhecer-alfama {
+  font-size: 12px;
+  font-weight: 400;
+  border-radius: 5px;
+  background: #FF6600;
+  color: #fff;
+  padding: 7px 15px;
+  text-decoration: none;
+}
+.box-redes-sociais{
+  display: flex;
+  flex-direction: column;
+  float: left;
+  margin-top: 10rem;
+}
+.box-redes-sociais .icon-rede-social{
+  padding: 0.4rem 0.7rem;
+  color: #FF6600;
+  border: 1px solid #FF6600;
+  border-radius: 5px;
+  margin: 0.4rem 0rem;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  text-decoration: none;
+}
+.background-cinza{
+  background: #E6E9ED;
+  border-radius: 1rem;
+  padding: 3rem 4rem;
+  position: relative;
+}
+.background-cinza .slogan{
+  color: #042849;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-left: -2rem;
+  position: relative;
+}
+.background-cinza .titulo-empresa {
+  font-weight: 600;
+  font-size: 30px;
+  color: #042849;
+  margin: 1.3rem 0rem 3rem 0rem;
+  line-height: 2.4rem;
+}
+.background-cinza .text-paragrafo {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: #000;
+  margin-bottom: 0.7rem
+}
+.background-cinza .img-empresa {
+  float: right;
+}
+.background-cinza:before {
+  background-image: url(../../img/efeito-1.svg);
+  background-size: cover;
+  display: inline-block;
+  width: 10rem;
+  height: 10rem;
+  content: "";
+  position: absolute;
+  bottom: -2rem;
+  left: -6rem;
+  z-index: -10;
+}
+.text-contrutoras{
+  color: #FF6600;
+  font-weight: 600;
+  margin: 1.8rem 0rem 1rem 0rem;
+  font-size: 0.8rem;
+}
+.box-branco{
+  background: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0rem;
+  border-radius: 1rem;
+  padding: 2rem;
+  align-items: center;
+}
+.slogan::after {
+  background-color: #FF6600;
+  background-size: auto;
+  display: inline-block;
+  width: 16px;
+  height: 2px;
+  content: "";
+  top: 10px;
+  left: -20px;
+  position: absolute;
+  z-index: 0;
+}
+.background-whatsapp-laranja{
+  background: #FF6600;
+  border-radius: 1rem;
+  padding: 0.8rem 0.6rem 0.2rem 0rem;
+  width: 70%;
+  display: flex;
+  justify-content: flex-start;
+  margin: 1rem 0rem;
+}
+.central {
+  display: flex;
+  justify-content: center;
+}
+
+.background-whatsapp-laranja i{
+  margin: 1rem 1.6rem 0rem 1.6rem;
+  color: #fff;
+  font-size: 1.4rem;
+}
+.informacoes-whatsapp{
+  margin-top: 1rem;
+} 
+
+.informacoes-whatsapp .atendimento{
+  color: #042849;
+  line-height: 0rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+.informacoes-whatsapp .whatsapp{
+  font-weight: 600;
+  color: #fff;
+  font-size: 1.2rem;
+  margin-top: -0.6rem;
+}
+.background-cinza-numeros{
+  background: #E6E9ED;
+  border-radius: 1rem;
+  padding: 3rem 4rem;
+  position: relative;
+}
+.background-cinza-numeros .titulo-numeros {
+  color: #042849;
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 600;
+}
+.lista-cards-brancos {
+  display: flex;
+  justify-content: space-between;
+}
+.box-numeros {
+  display: flex;
+  justify-content: center;
+}
+.box-branco-numeros {
+  background: #fff;
+  border-radius: 1rem;
+  padding: 1.2rem;
+  box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.2);
+  margin-top: 1.5rem;
+}
+.subtitulo-numeros {
+  color: #042849;
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+}
+.valores-numeros {
+  display: flex;
+  justify-content: space-between;
+}
+.valor-principal {
+  color: #FF6600;
+  font-size: 2rem;
+  margin: 0;
+  font-weight: 700;
+}
+.indicadores {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.seta-verde {
+  margin-right: 0.3rem;
+}
+.porcentagem {
+  color: #03B072;
+  font-weight: 600;
+  margin: 0rem 0rem -0.5rem 0rem;
+  font-size: 0.9rem;
+}
+.ano {
+  color: #808080;
+  margin: 0;
+  font-size: 0.9rem;
+}
+.titulo-experiencia {
+  color: #042849;
+  margin: 4rem 0rem 2.5rem 0rem;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+}
+img .img-card-experiencia {
+  border-radius: 1rem;
+  width: 100%;
+}
+.subtitulo-experiencia {
+  color: #000;
+  font-size: 1.3rem;
+  margin: 1rem 0rem 0.5rem 0rem;
+  font-weight: 600;
+}
+.legenda-experiencia {
+  letter-spacing: 0.05rem;
+  color: #808080;
+  line-height: 2rem;
+  font-size: 0.9rem;
+}
+.card-experiencia {
+  margin-bottom: 2rem;
+}
+footer{
+  background: #042849;
+  padding: 2rem 0rem;
+  margin-top: 3rem;
+}
+.marca-footer{
+  display: flex;
+  justify-content: center;
+}
+.divisoria{
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0rem
+}
+hr{
+  background: #fff;
+  width: 50%;
+}
+.filial {
+  text-align: center;
+  color: #fff;
+  font-size: 0.8rem;
+  margin: 0;
+}
+.telefone {
+  text-align: center;
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin: 0;
+}
+.endereco {
+  text-align: center;
+  color: #fff;
+  font-size: 0.7rem;
+  margin: 0;
+}
+.enderecos {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* VERSÃO RESPONSIVA */
+@media all and (max-width: 767px) { 
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .box-redes-sociais {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 2rem;
+    float: none;
+    margin-top: 0;
+  } 
+  .background-cinza {
+    padding: 2rem;
+  }
+  .background-cinza .slogan {
+    margin-left: 0;
+  }
+  .box-branco {
+    flex-direction: column;
+  }
+  .logo-empresa {
+    margin-bottom: 20px;
+  }
+  .lista-cards-brancos {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+}
